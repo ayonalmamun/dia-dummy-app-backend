@@ -18,8 +18,8 @@ export abstract class CoreEntity {
   @Column({ type: 'timestamp', default: null, nullable: true  })
   updatedAt: Date
 
-  @Column({ nullable: true })
-  deletedAt: Date
+  // @Column({ nullable: true })
+  // deletedAt: Date
 
   // @CreateDateColumn({
   //   name: 'createdAt',
